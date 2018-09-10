@@ -72,8 +72,8 @@ t.pendown()
 while ccpir <=nnpp:
     aall=t.ycor()
     t.penup()
-    t.sety(aall-4*rr)
-    t.setx(2*rr*(ccpir-1))
+    t.sety(aall-3*rr)
+    t.setx(1.5*rr*(ccpir-1))
     t.pendown()
     piso(ccpir, ccpir+2)
     ccpir+=1
